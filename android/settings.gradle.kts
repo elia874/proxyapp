@@ -1,5 +1,5 @@
 pluginManagement {
-    def r = providers.gradleProperty("flutter.sdk")
+    val r = providers.gradleProperty("flutter.sdk")
     val flutterSdkPath = if (r.isPresent) r.get() else throw GradleException("flutter.sdk not set")
     includeBuild("$flutterSdkPath/packages/flutter_tools/gradle")
     repositories {
@@ -16,5 +16,3 @@ plugins {
 }
 
 include(":app")
-
-
