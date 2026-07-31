@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'dart:convert';
 
-import 'package:flutter/material.dart';
+import 'package:flutter/material.dart' hide Flow;
 
 import '../models/flow.dart';
 import '../services/api_service.dart';

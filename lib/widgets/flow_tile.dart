@@ -1,6 +1,6 @@
 import 'dart:ui' show FontFeature;
 
-import 'package:flutter/material.dart';
+import 'package:flutter/material.dart' hide Flow;
 import 'package:intl/intl.dart';
 
 import '../models/flow.dart';

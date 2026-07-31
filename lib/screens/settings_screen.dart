@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'package:flutter/material.dart' hide Flow;
 
 import '../services/settings_service.dart';
 

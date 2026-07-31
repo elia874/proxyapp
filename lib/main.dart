@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'package:flutter/material.dart' hide Flow;
 
 import 'screens/flow_list_screen.dart';
 
